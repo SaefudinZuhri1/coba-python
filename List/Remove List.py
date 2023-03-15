@@ -13,3 +13,8 @@ print(list11)
 list12 = ["Jakarta", "Yogyakarta", "Jawa"]
 list12.pop()
 print(list12)
+
+# Menggunakan keyword del untuk menghapus item
+list13 = ["Jawa Barat", "Jawa Tengah", "Jawa Timur"]
+del list13[0]
+print(list13)

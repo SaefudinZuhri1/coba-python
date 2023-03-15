@@ -1,3 +1,10 @@
+# Fungsi append digunakan untuk menambahkan item
+# Hanya bisa menambahkan satu item
 listBaru = ["Januari", "Februari", "Maret", "April"]
 listBaru.append("Mei")
 print(listBaru)
+
+# Insert Item digunakan untuk menambahkan item di index tertentu
+listBaru1 = ["Jakarta", "Bogor", "Depok", "Tangerang"]
+listBaru1.insert(4, "Bekasi")
+print(listBaru1)

@@ -1,0 +1,3 @@
+listBaru = ["Januari", "Februari", "Maret", "April"]
+listBaru.append("Mei")
+print(listBaru)

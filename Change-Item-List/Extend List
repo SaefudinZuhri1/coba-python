@@ -2,3 +2,9 @@ listBaru = ["Januari", "Februari", "Maret"]
 listBulan = ["April", "Mei", "Juni"]
 listBaru.extend(listBulan)
 print(listBaru)
+
+# Menggunakan metode extend untuk menambahkan tupple, dictionary
+listCampur = ["Mangga", "Jeruk", "Pepaya"]
+tupleCampur = ("Ceri", "Tomat")
+listCampur.extend(tupleCampur)
+print(listCampur)

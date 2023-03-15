@@ -18,3 +18,7 @@ print(list12)
 list13 = ["Jawa Barat", "Jawa Tengah", "Jawa Timur"]
 del list13[0]
 print(list13)
+
+# Jika keyword del tidak ditujukan pada item manapun, maka akan menghapus semua item
+list14 = ["Sumatra", "Sulawesi", "Kalimantan"]
+del list14

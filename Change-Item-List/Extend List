@@ -1,0 +1,4 @@
+listBaru = ["Januari", "Februari", "Maret"]
+listBulan = ["April", "Mei", "Juni"]
+listBulan.extend(listBulan)
+print(listBaru)

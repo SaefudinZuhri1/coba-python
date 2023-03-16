@@ -40,8 +40,11 @@ print(buahBuahan)
 
 # Penjelasan: secara default, metode sort() peka huruf besar-kecil, sehingga semua huruf kapital diurutkan sebelum huruf kecil
 
+buahBuahan1 = ["pisang", "Mangga", "jeruk nipis", "Apel"]
+buahBuahan1.sort(key = str.lower)
+print(buahBuahan1)
 
-
+# Penjelasan: Bisa gunakan fungsi bawaan sebagai fungsi utama saat mengurutkan daftar. Jika fungsi pengurutan yang tidak peka huruf besar kecil, gunakan str.lower sebagai fungsi utama 
 
 
 

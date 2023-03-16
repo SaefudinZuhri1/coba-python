@@ -6,3 +6,9 @@ for y in buahBuahan:
 		tambahBuah.append(y)
 
 print(tambahBuah)
+
+# Jika menggunakan pemahaman daftar
+buahBuahan1 = ["Mangga", "Apel", "Anggur", "Jeruk"]
+buahBaru = [x for x in buahBuahan1 if "A" in x]
+
+print(buahBaru)

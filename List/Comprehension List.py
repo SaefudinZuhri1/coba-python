@@ -47,6 +47,7 @@ print(ubahKota)
 namaKota2 = ["JAKARTA", "BANDUNG", "BEKASI", "TANGERANG", "BOGOR"]
 ubahKota1 = [x if x != "BANDUNG" else "DEPOK" for x in namaKota2]
 print(ubahKota1)
+# Penjelasan dianalogikan seperti "Kembalikan nama kota jika bukan Bandung, jika Bandung kembalikan DEPOK"
 
 
 

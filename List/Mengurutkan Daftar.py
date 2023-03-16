@@ -19,3 +19,34 @@ print(namaKota)
 urutAngka = [200, 100, 67, 83, 10]
 urutAngka.sort(reverse = True)
 print(urutAngka)
+
+
+# Menyesuaikan Fungsi Sortir
+# Menggunakan argumen keyword key = function
+
+def iniAngka(n):
+	return abs(n - 40)
+
+angkaBaru = [200, 20, 80, 55, 38, 44]
+angkaBaru.sort(key = iniAngka)
+print(iniAngka)
+
+# Penjelasan: fungsi akan mengembalikan nomor yang akan digunkan untuk mengurutkan daftar (nomor terendah lebih dahulu)
+
+# Mengurutkan tidak peka huruf besar  
+buahBuahan = ["pisang", "Mangga", "jeruk nipis", "Apel"]
+buahBuahan.sort()
+print(buahBuahan)
+
+# Penjelasan: secara default, metode sort() peka huruf besar-kecil, sehingga semua huruf kapital diurutkan sebelum huruf kecil
+
+
+
+
+
+
+
+
+
+
+

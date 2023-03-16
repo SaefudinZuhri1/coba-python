@@ -30,6 +30,12 @@ print(angka)
 angka1 = [x for x in range(20) if x < 16]
 print(angka1)
 
+# Expression
+# Expression merupakan item yang ada saat iterasi berjalan, tetapi juga hasil yang dapat dimanipulasi sebelum berakhir
+namaKota = ["JAKARTA", "BANDUNG", "BEKASI", "TANGERANG", "BOGOR"]
+kotaLagi = [y.lower() for y in namaKota]
+print(kotaLagi)
+
 
 
 

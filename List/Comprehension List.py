@@ -10,5 +10,11 @@ print(tambahBuah)
 # Jika menggunakan pemahaman daftar
 buahBuahan1 = ["Mangga", "Apel", "Anggur", "Jeruk"]
 buahBaru = [x for x in buahBuahan1 if "A" in x]
+buahBaru1 = [y for y in buahBuahan1 if y != "Apel"]
 
 print(buahBaru)
+print(buahBaru1)
+
+# Sintaks
+#newlist = [expression for item in iterable if condition == True]
+

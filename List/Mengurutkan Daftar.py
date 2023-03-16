@@ -44,7 +44,15 @@ buahBuahan1 = ["pisang", "Mangga", "jeruk nipis", "Apel"]
 buahBuahan1.sort(key = str.lower)
 print(buahBuahan1)
 
-# Penjelasan: Bisa gunakan fungsi bawaan sebagai fungsi utama saat mengurutkan daftar. Jika fungsi pengurutan yang tidak peka huruf besar kecil, gunakan str.lower sebagai fungsi utama 
+# Penjelasan: Bisa gunakan fungsi bawaan sebagai fungsi utama saat mengurutkan daftar. Jika fungsi pengurutan yang tidak peka huruf besar kecil, gunakan str.lower sebagai fungsi utama
+
+
+
+# Aliran Terbalik
+# Gunakan metode reverse() untuk menghasilkan urutan elemen saat ini
+iniKota = ["Jakata", "Ambon", "Aceh", "Bandung"]
+iniKota.reverse()
+print(iniKota) 
 
 
 

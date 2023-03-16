@@ -42,6 +42,11 @@ namaKota1 = ["JAKARTA", "BANDUNG", "BEKASI", "TANGERANG", "BOGOR"]
 ubahKota = ['Yogyakarta' for z in namaKota1]
 print(ubahKota)
 
+# Expression 3
+# Bisa berisi kondisi, bukan untuk filter, tapi untuk memanipulasi hasil
+namaKota2 = ["JAKARTA", "BANDUNG", "BEKASI", "TANGERANG", "BOGOR"]
+ubahKota1 = [x if x != "BANDUNG" else "DEPOK" for x in namaKota2]
+print(ubahKota1)
 
 
 

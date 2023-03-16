@@ -15,4 +15,8 @@ x = 0
 while x < len(listBaru2):
 	print(listBaru2[x])
 	x = x + 1
-	
+
+# Loop menggunakan daftar
+# for untuk mencetak semua item
+listBaru3 = ["Cirebon", "Cikadongdong", "Plered"]
+[print(i) for i in listBaru3]

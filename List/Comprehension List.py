@@ -26,6 +26,10 @@ print(kondisiLain)
 angka = [x for x in range(25)]
 print(angka)
 
+# Contoh iteration dengan syarat
+angka1 = [x for x in range(20) if x < 16]
+print(angka1)
+
 
 
 

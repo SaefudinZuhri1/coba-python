@@ -25,6 +25,16 @@ print(iniTuple1)
 # Panjang Tuple
 # Menentukan berapa banyak item, gunakan function len()
 iniTuple2 = ("Jakarta", "Semarang", "Karawang", "Cikampek")
-print(len(iniTuple2)) 
+print(len(iniTuple2))
+
+# Membuat Tuple dengan Satu Item
+# Membuat tuple dengan hanya satu item, menambahkan koma setelah item, jika tidak, python tidak akan mengenali sebagai tuple
+# Contoh satu item tuple
+iniTuple3 = ("Jakarta",)
+print(len(iniTuple3))
+# Contoh bukan tuple
+iniTuple3 = ("Jakarta")
+print(len(iniTuple3))
+
 
 

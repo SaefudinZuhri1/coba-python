@@ -36,5 +36,19 @@ print(len(iniTuple3))
 iniTuple3 = ("Jakarta")
 print(len(iniTuple3))
 
+# Item Tuple (Tipe data)
+# Tipe dapat berupa tipe data apapun
+iniTuple4 = ("Jakarta", "Medan", "Pontianak")
+iniTuple5 = (1, 2, 3, 5, 10)
+iniTuple6 = (True, False, False)
+print(iniTuple4)
+print(iniTuple5)
+print(iniTuple6)
+
+# Tuple dapat berisi tipe data berbeda
+iniTuple7 = ("aaa", 40, False, 55, "Female")
+print(iniTuple7) 
+
+
 
 

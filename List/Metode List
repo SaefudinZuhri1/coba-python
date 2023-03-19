@@ -1,0 +1,11 @@
+Metode List bisa menggunakan berbagai macam:
+1. append()
+2. clear()
+3. copy()
+4. count()
+5. extend()
+6. index()
+7. insert()
+8. pop()
+9. reverse()
+10. sort()

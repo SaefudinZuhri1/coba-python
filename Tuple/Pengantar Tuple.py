@@ -55,6 +55,11 @@ print(iniTuple7)
 tupleIni = ("Jambi", "Sumatera", "Kalimantan")
 print(type(tupleIni)) 
 
+# Tuple() Konstruktor
+# Dapat menggunakan konstruktor tuple() 
+# Menggunakan metode tuple()
+tupleDalamTuple = tuple(("Mangga", "strobery", "Tomat")) # Dua tanda kurung
+print(tupleDalamTuple)
 
 
 

@@ -22,4 +22,9 @@ print(iniTuple)
 iniTuple1 = ("Jawa", "Madura", "Makasar", "Surabaya", "Jawa")
 print(iniTuple1)
 
+# Panjang Tuple
+# Menentukan berapa banyak item, gunakan function len()
+iniTuple2 = ("Jakarta", "Semarang", "Karawang", "Cikampek")
+print(len(iniTuple2)) 
+
 

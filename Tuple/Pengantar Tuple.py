@@ -47,7 +47,13 @@ print(iniTuple6)
 
 # Tuple dapat berisi tipe data berbeda
 iniTuple7 = ("aaa", 40, False, 55, "Female")
-print(iniTuple7) 
+print(iniTuple7)
+
+# type()
+# Tuple didefinisikan sebagai objek dengan tipe data 'tuple'
+# <class 'tuple'>
+tupleIni = ("Jambi", "Sumatera", "Kalimantan")
+print(type(tupleIni)) 
 
 
 

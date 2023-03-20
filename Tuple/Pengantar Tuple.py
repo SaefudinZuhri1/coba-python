@@ -5,7 +5,6 @@
 tupleContoh = ("Jambi", "Aceh", "Medan")
 print(tupleContoh)
 
-
 # Sintaks untuk membuat tuple
 iniTuple = ("Jawa", "Madura", "Lampung")
 print(iniTuple)

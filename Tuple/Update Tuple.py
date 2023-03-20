@@ -19,3 +19,30 @@ iniList = list(iniTuple)
 iniList.append("Kota Tua")
 iniTuple = tuple(iniList)
 print(iniTuple)
+
+# 2. Tambahkan Tuple ke Tuple. Diizinkan untuk menambahkan tuple ke tuple baru dengan item tersebut, dan tambahkan ke tuple yang sudah ada
+# Contoh:
+iniTuple1 = ("Manajemen", "Hubungan Internasional", "Akuntansi")
+tambahTuple = ("Manajemen Logistik",)
+iniTuple1 += tambahTuple
+
+print(iniTuple1)
+# Catatan: Saat membuat tuple hanya satu item, sertakan juga koma setelah item, jika tidak maka akan teridentifikasi sebagai tuple.
+
+# C. Hapus Item
+# Catatan: Tidak dapat menghapus item dalam tuple
+# Terdapat solusi jika ingin menghapus item. Caranya sama dengan ketika kita menambahkan atau mengganti item pada tuple.
+# Contoh
+# Mengubah tuple menjadi list, dan ubah kembali menjadi tuple
+iniTuple2 = ("Januari", "Februari", "Maret", "April")
+ubahTuple = list(iniTuple2)
+ubahTuple.remove("Januari")
+iniTuple2 = tuple(ubahTuple)
+print(iniTuple2)
+
+# Atau dapat juga menghapus semua item dalam tuple
+# Gunakan keyword del untuk menghapusnya
+iniTuple3 = ("Januari", "Februari", "Maret", "April", "Mei")
+del iniTuple3
+print(iniTuple3)
+# Hasilnya akan error

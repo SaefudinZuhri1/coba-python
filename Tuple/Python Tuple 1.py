@@ -34,3 +34,14 @@ print(iniTuple4[1:])
 iniTuple5 = ("Jambu", "Mangga", "Pisang", "Pir", "Jeruk")
 print(iniTuple5[-3:-2])
 # Menghasilkan output item dari indeks -3 (termasuk) sampai ke index -2 (tidak termasuk)
+
+# Mencari item
+# Untuk menentukan apakah item tertentu ada dalam sebuah tuple, gunakan keyword in
+iniTuple6 = ("Guru", "Jaksa", "Hakim", "Pilot", "Masinis")
+if "Pilot" in iniTuple6:
+  print("Ya, 'Pilot' merupakan profesi")
+
+
+
+
+

@@ -23,3 +23,14 @@ print(iniTuple2[2:4])
 ## Mengembalikan item dari awal, tetapi tidak termasuk nilai "Guru"
 iniTuple3 = ("Profesor", "Dokter", "Raja", "Guru", "Pilot")
 print(iniTuple3[:3])
+
+# Contoh:
+# Jika mengabaikan nilai akhir, rentang berlanjut ke akhir daftar
+iniTuple4 = ("Mangga", "Nanas", "Jeruk", "Apel")
+print(iniTuple4[1:])
+
+# Rentang Indeks Negatif
+# Jika ingin mencari nilai dari akhir tuple tentukan nilai rentang negatif
+iniTuple5 = ("Jambu", "Mangga", "Pisang", "Pir", "Jeruk")
+print(iniTuple5[-3:-2])
+# Menghasilkan output item dari indeks -3 (termasuk) sampai ke index -2 (tidak termasuk)

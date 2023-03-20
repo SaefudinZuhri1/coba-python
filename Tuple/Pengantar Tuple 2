@@ -1,0 +1,12 @@
+koleksi Python (Array)
+
+Terdapat empat tipe data dalam bahasa pemrograman Python:
+1. List: Koleksi yang dapat dipesan dan diubah, memungkinkan duplikasi item.
+2. Tuple: Koleksi yang dipesan dan tidak dapat diubah. Memungkinkan diduplikat anggota
+3. Set: Koleksi yang tidak diurutkan, tidak bisa diubah, dan tidak bisa diindeks. Tidak ada anggota rangkap.
+4. Dictionary: Kumpulan yang dipesan dan dapat diubah. Tidak ada anggota rangkap.
+
+* Set Item tidak dapat diubah, tetapi dapat dihaupus dan/atau menambahkan item semau kita.
+** Python v 3.7, dictonary diurutkan. Di python 3.6 dan sebelumnya, dictionary tidak dhukum.
+
+Saat memilih tipe koleksi, akan berguna untuk memahami properti dari tipe data tersbeut utuk memilih jenis yang tepat untuk kumpulan data tertentu dapat berarti retensi makna, dan dapat berarti peningkatan efisiensi atau keamanan.

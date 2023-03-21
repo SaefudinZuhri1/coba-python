@@ -1,0 +1,3 @@
+Metode tuple pada Python memiliki dua metode bawaan yang dapat digunakan yaitu:
+1. count(): Menghasilkan angka dari waktu spesifik nilai pada tuple
+2. index(): Mencari tuple untuk nilai yang spesifik dan menghasilkan posisi item ditemukan.

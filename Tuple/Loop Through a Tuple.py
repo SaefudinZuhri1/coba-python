@@ -14,3 +14,14 @@ buahBuahan = ("Apel", "Mangga", "Pisang")
 for x in range(len(buahBuahan)):
   print(buahBuahan[x])
 
+# C. Menggunakan While Loop
+# Kita dapat mengulang item tuple dengan menggunakan while loop. Gunakan function len() untuk menentukan panjang tuple, lalu mulai dari 0 dan lewati item tuple dengan mengacu pada indeksnya.
+# Selalu tambah indeks sebesar 1 setelah setiap iterasi (i = i + 1)
+# Contoh:
+kota = ("Bandung", "Cimahi", "Padalarang", "Purwakarta")
+x = 0
+while x < len(kota):
+  print(kota[x])
+  x = x + 1
+
+# Mencetak semua item, gunakan while loop untuk melewati semua nomor indeks.

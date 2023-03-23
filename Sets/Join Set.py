@@ -18,3 +18,20 @@ print(iniHuruf)
 
 # Catatan: Keduanya, union() dan update() akan mengecualikan item duplikat apapun
 
+# B. Menyimpan Duplikat Item
+# Menggunakan method intersection_update() hanya akan menyimpan item yang ada di kedua set.
+# Contoh: Pertahankan item yang ada di kedua set.
+perusahaan = {"Google", "Microsoft", "Louis Vitton"}
+produk = {"Google", "Windows", "Pakaian"}
+
+perusahaan.intersection_update(produk)
+print(perusahaan)
+
+# Metode intersection() ini akan mengembalikan set baru, yang hanya berisi item yang ada di kedua set.
+# Contoh: Menghasilkan nilai set yang berisi item di kedua set.
+olshop = {"Shopee", "Lazada", "Tokopedia"}
+produk = {"Shopeefood", "LazMall", "Tokopedia"}
+produkOlshop = olshop.intersection(produk)
+print(produkOlshop)
+
+# C. Simpan semua tapi bukan duplikatnya

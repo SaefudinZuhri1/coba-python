@@ -1,0 +1,19 @@
+Tetapkan Metode
+
+Python memiliki seperangkat metode bawaan yang dapat kita gunakan di set.
+
+1. add(): Menambahkan elemen ke dalam set
+2. clear(): Menghapus semua elemen dari set
+3. copy(): Mengembalikan duplikat dari set
+4. difference(): Mengembalikan konten set pada perbedaan dua atau lebih set
+5. difference_update(): Menghapus item pada set termasuk set lain, dengan set yang lengkap
+6. discard(): Menghapus item pada set
+7. intersection(): Mengembalikan sebuah set, pada satu atau dua bagian set
+8. intersection_update(): Menghapus item yang tidak ada pada set
+9. isdisjoint(): Mengembalikan dua set yang sama atau tidak
+10. pop(): Menghapus elemen dari set
+11. remove(): Menghapus elemen spesifik
+12. symmetric_difference(): Mengembalikan set dengan simetris
+13. symmetric_difference_update(): Mencari perbedaan simetris
+14. union(): mengembalkan isi set
+15. update(): Memperbarui set

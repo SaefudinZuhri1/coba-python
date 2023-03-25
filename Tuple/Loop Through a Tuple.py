@@ -23,5 +23,4 @@ x = 0
 while x < len(kota):
   print(kota[x])
   x = x + 1
-
 # Mencetak semua item, gunakan while loop untuk melewati semua nomor indeks.

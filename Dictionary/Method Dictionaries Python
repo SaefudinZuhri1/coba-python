@@ -1,0 +1,12 @@
+A. Dictionary Python
+Python memiliki seperangkat metode bawaan yang dapat digunakan pada dictionaries
+1. clear() : Menghapus semua elemen dari dictionary
+2. copy() : menyalin dictionary
+fromkeys() : Mengembalikan dictionary dengan keys dan value spesifik
+3. get() : mengembalikan value dari spesifik key
+4. items() : mengembalikan konten list sebagai tuple dengan key value
+5. keys() : mengembalikan list konten dengan dictionary keys
+6. pop() : menghapus elemen dengan key spesifik
+7. popitem() : menghapus key-value terakhir
+8. setdefault() : mengembalikan value dengan spesifik key. Jika key tidak ada, maka cari key dengan spesifik value
+9. values() : mengembalikan list dari semua nilai pada dictionary

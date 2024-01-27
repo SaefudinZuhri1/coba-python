@@ -1,2 +1,2 @@
 # coba-python
-Ini Buat Belajar Python
+Materi belajar python yang berikutnya akan dilanjutkan kembali
